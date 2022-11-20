@@ -47,6 +47,12 @@ body{
     padding: 0 .5rem;
     background-color: rgba( 0, 0,0 .1) ;
 }
+.btn{
+  visibility: hidden
+}
+.carousel:hover>.btn{
+  visibility:visible;
+}
 .carousel-button:hover,
 .carousel-button:focus {
     color: red;
